@@ -79,9 +79,9 @@ class YamlAgent(AgentBase):
         # Load the vector store with dangerous deserialization allowed
         return FAISS.load_local(
             # Use this when running in docker:
-            # "/app/vector_store",
+            "/app/vector_store",
             # else:
-            "/Users/michael/projects/fortrace-yaml-generator/vector_store",
+            # "/Users/michael/projects/fortrace-yaml-generator/vector_store",
             embeddings,
             allow_dangerous_deserialization=True
         )

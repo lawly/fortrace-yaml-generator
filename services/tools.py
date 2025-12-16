@@ -4,7 +4,7 @@ from typing import Optional
 
 from langchain_core.tools import tool
 
-DATABASE_NAME: str = '/Users/michael/projects/fortrace-yaml-generator/resources/mail-providers.db'
+DATABASE_NAME: str = './resources/mail-providers.db'
 
 
 # https://python.langchain.com/docs/how_to/custom_tools/
