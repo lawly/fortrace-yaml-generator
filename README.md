@@ -25,6 +25,8 @@ pip install faiss-cpu langchain langchain-core \
 
 ### Run app locally
 
+Before you run the app locally ensure that you change the file path of the vector store in the function `__create_vector_storage` to your local path.
+
 Run app locally:
 ```bash
 python -m venv env
