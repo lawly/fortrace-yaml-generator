@@ -4,10 +4,8 @@ This application converts a forensic scenario into a YAML file for ForTrace.
 It is a PoC for our paper: *Addressing the Dataset Gap Problem with Generative AI: Towards LLM-driven Forensic Scenarios for Dataset Generation* for DFRWS EU 2026.
 
 This video shows the generation process of a synthetic scenario.
-<p align="center" width="100%">
-    <video src="./poc.mp4" width="100%" controls></video>
 
-</p>
+https://github.com/user-attachments/assets/c32473d5-9341-4d70-b5b1-59b8aa2af44e
 
 ![Personas](./images/screenshot1.png)
 
